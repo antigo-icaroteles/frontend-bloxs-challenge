@@ -1,0 +1,9 @@
+{
+  "conventionalCommits.scopes": [
+    "styles",
+    "components",
+    "pages",
+    "routes",
+    "settings.json"
+  ]
+}
