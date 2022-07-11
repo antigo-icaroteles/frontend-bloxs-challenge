@@ -1,3 +1,5 @@
 import styled from "styled-components";
 
-export const NotFoundContainer = styled.div``;
+export const NotFoundContainer = styled.div`
+  width: 100%;
+`;

@@ -1,9 +1,10 @@
+import Header from "../../components/Header";
 import { NotFoundContainer } from "./style";
 
-const NotFoundPage = () => {
+const NotFoundPage = ({ namepage }) => {
   return (
     <NotFoundContainer>
-      <h1>Not Found Page</h1>
+      <Header namepage={namepage} />
     </NotFoundContainer>
   );
 };

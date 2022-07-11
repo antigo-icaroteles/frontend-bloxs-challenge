@@ -1,9 +1,10 @@
+import Header from "../../components/Header";
 import { NewsContainer } from "./style";
 
 const NewsPage = () => {
   return (
     <NewsContainer>
-      <h1>News Page</h1>
+      <Header namepage="Notícias" />
     </NewsContainer>
   );
 };
