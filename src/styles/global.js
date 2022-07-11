@@ -32,6 +32,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100vh;
 
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
 
@@ -41,6 +42,9 @@ const GlobalStyle = createGlobalStyle`
 
     :root {
         //COLORS
+
+        --icon-header-color: #A1A5B7;
+        --icon-header-secondary-color: #E1E3E8;
 
         --text-color: #000000;
         --subtext-color: #7F8297;
