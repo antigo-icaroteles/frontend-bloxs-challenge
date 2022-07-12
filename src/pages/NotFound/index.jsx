@@ -7,6 +7,10 @@ const NotFoundPage = ({ namepage }) => {
   return (
     <NotFoundContainer menuIsExpanded={menuIsExpanded}>
       <Header namepage={namepage} />
+
+      <main className="main">
+        <h2 className="main--title">Essa página ainda não existe!</h2>
+      </main>
     </NotFoundContainer>
   );
 };
