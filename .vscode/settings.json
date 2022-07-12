@@ -8,6 +8,7 @@
     "assets",
     "providers",
     "index.js",
-    "App.js"
+    "App.js",
+    "services"
   ]
 }

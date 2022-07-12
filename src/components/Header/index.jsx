@@ -5,9 +5,9 @@ import { FiHelpCircle, FiMenu } from "react-icons/fi";
 import { useMenu } from "../../providers/menu";
 
 const Header = ({ namepage }) => {
-  const { handleMenu } = useMenu();
+  const { menuIsExpanded, handleMenu } = useMenu();
   return (
-    <HeaderContainer role="header">
+    <HeaderContainer role="header" menuIsExpanded={menuIsExpanded}>
       <button
         type="button"
         className="header--button header--button__hamb"

@@ -9,8 +9,20 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  transition: all ease 0.5s;
+
   background-color: var(--bg-secondary-color);
   color: var(--text-color);
+
+  @media (min-width: 600px) {
+    width: ${(props) =>
+      props.menuIsExpanded ? "calc(100% - 360px)" : "calc(100% - 90px)"};
+    left: ${(props) => (props.menuIsExpanded ? "360px" : "90px")};
+  }
 
   .header--namepage {
     font-size: 1.2rem;
