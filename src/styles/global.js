@@ -35,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
         justify-content: flex-start;
         align-items: flex-start;
 
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
