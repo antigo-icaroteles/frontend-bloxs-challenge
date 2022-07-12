@@ -59,6 +59,10 @@ export const CategoryContainer = styled.section`
   .category--arrow__right {
     right: 0px;
     border-radius: 0px 5px 5px 0px;
+
+    @media (min-width: 1120px) {
+      right: 15px;
+    }
   }
 
   .category--name {
