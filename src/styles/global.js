@@ -35,12 +35,15 @@ const GlobalStyle = createGlobalStyle`
         justify-content: flex-start;
         align-items: flex-start;
 
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
     :root {
         //COLORS
+
+        --icon-header-color: #A1A5B7;
+        --icon-header-secondary-color: #E1E3E8;
 
         --text-color: #000000;
         --subtext-color: #7F8297;

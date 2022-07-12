@@ -1,0 +1,14 @@
+{
+  "conventionalCommits.scopes": [
+    "styles",
+    "components",
+    "pages",
+    "routes",
+    "settings.json",
+    "assets",
+    "providers",
+    "index.js",
+    "App.js",
+    "services"
+  ]
+}
