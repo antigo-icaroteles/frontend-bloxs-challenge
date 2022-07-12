@@ -2,11 +2,17 @@ import { HeaderContainer } from "./style";
 
 import { FaBell, FaUser } from "react-icons/fa";
 import { FiHelpCircle, FiMenu } from "react-icons/fi";
+import { useMenu } from "../../providers/menu";
 
 const Header = ({ namepage }) => {
+  const { handleMenu } = useMenu();
   return (
     <HeaderContainer role="header">
-      <button type="button" className="header--button header--button__hamb">
+      <button
+        type="button"
+        className="header--button header--button__hamb"
+        onClick={handleMenu}
+      >
         <FiMenu size="1.3rem" />
       </button>
       <h1 className="header--namepage">{namepage}</h1>

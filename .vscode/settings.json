@@ -4,6 +4,10 @@
     "components",
     "pages",
     "routes",
-    "settings.json"
+    "settings.json",
+    "assets",
+    "providers",
+    "index.js",
+    "App.js"
   ]
 }
